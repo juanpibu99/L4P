@@ -1,0 +1,55 @@
+body{
+    color: white;
+    background-color: #2f3337;
+}
+
+.neon{
+    color: #FF10F0;
+}
+
+.titulo{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.fondoTitulo{
+    background-color:#363636 ;
+    border-bottom: black solid 1px;
+}
+
+input{
+    background-color: #535c65;
+    border: 1px solid #535c65;
+    box-shadow: 0 1px 3px -1px rgb(0 0 0 / 50%);
+    color: white;
+}
+.contPost{
+    background-color: #535c65;
+    border: 1px solid #535c65;
+    box-shadow: 0 1px 3px -1px rgb(0 0 0 / 50%);
+    color: white;
+}
+
+.example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+    .required{position:relative;display:block;margin-bottom:10px;margin-top:30px}
+    #register_save{ margin:20px;background:#FF10F0; border-radius:5px; border:none; padding:5px; padding-left:30px;padding-right:30px; color:white;}
+    #alta_juego_save{margin:20px;background:#FF10F0; border-radius:5px; border:none; padding:5px; padding-left:30px;padding-right:30px; color:white;}
+    #alta_juego_descripcion{background-color: #535c65;
+        border: 1px solid #535c65;
+        box-shadow: 0 1px 3px -1px rgb(0 0 0 / 50%);
+        color: white;}
+.quitara{
+    text-decoration: none;
+    color: white;
+    background-color:#FF10F0 ;
+    border-radius:5px; border:none; padding:5px; padding-left:30px;padding-right:30px;padding-bottom:10px;
+
+}
+.quitara:hover{
+    color: white;
+}
+/*#FF10F0
+#2f3337
+#363636
+#535c65*/

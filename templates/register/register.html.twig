@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Registro{% endblock %}
+
+{% block body %}
+
+    <div class="container mt-5">
+        <div class="row">
+            
+            <div class="col-lg-6 col-12 text-center  order-lg-2">
+                <h1> Únete a L4P hoy mismo </h1>
+                {{ form_start(form) }}
+                {{ form_widget(form) }}
+                {{ form_end(form) }}
+                <p>{{error}}</p>
+                <p>¿Ya tienes usuario?<a href="http://127.0.0.1:8000/login">Log In</a></p>
+            </div>
+            <div class="col-lg-6 col-12 text-center order-lg-1 d-none d-lg-block">
+                <h1 class="neon">Tu red social de</h1>
+                <h1 class="neon">videojuegos</h1>
+            </div>
+        </div>
+    </div>
+
+
+  
+
+    </div>
+{% endblock %}
